@@ -180,12 +180,15 @@ main {
     margin-bottom: 40px;
     background-color: white;
     box-shadow: 5px 5px 20px #c2c2c2;
+    cursor: pointer;
+}
+
+.right-section .profile .profile-photo {
     transition: 300ms;
 }
 
-.right-section .profile:hover {
-    opacity: 0.8;
-    cursor: pointer;
+.right-section .profile:hover>.profile-photo {
+    opacity: 0.8
 }
 
 .right-section .profile .profile-photo img {
