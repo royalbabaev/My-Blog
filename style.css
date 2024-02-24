@@ -95,12 +95,15 @@ main {
     margin-bottom: 60px;
     background-color: white;
     box-shadow: 5px 5px 20px #c2c2c2;
+    cursor: pointer;
+}
+
+.left-section .article .image {
     transition: 300ms;
 }
 
-.left-section .article:hover {
+.left-section .article:hover>.image {
     opacity: 0.8;
-    cursor: pointer;
 }
 
 .left-section .article .image img {
